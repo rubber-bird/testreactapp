@@ -4,9 +4,20 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shoppinglist">
+        <h1>ShoppingList for this</h1>
+      </div>
+    );
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <ShoppingList  />
   </React.StrictMode>,
   document.getElementById('root')
 );
