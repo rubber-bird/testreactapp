@@ -1,17 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import MyInfo from "./components/MyInfo"
 
 function App() {
   return (
-    <h1>Hello</h1>
-  );
-}
-
-function App1() {
-  return (
-      <h2>AHHAAA</h2>
-  );
+      <MyInfo />
+    );
 }
 
 export default App;
